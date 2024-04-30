@@ -2,8 +2,12 @@ body{
     background-color: #33312d;
     margin: 0px;
     padding: 0px;
-
 }
+.dark-mode body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
 #nav{
      display: flex;
      background-color: aliceblue;
@@ -26,30 +30,7 @@ h2{
     color: black;
     text-align: center;
 }
-/* #contentArea1{
-    background-color: white;
-    width: 40%;
-    height: 200px; 
-    background-color: white;
-    margin: 40px;
-   
-}
-#contentArea2{
-    background-color: white;
-    width: 40%;
-    height: 300px; 
-    background-color: white;
-    margin: 40px;
-  
-}
-#contentArea3{
-    background-color: white;
-    width: 40%;
-    height: 300px; 
-    background-color: white;
-    margin: 40px; */
-   
-}
+
 #footer{
     width: 100%;
     height: 100px;
@@ -420,7 +401,7 @@ h2{
 
 
 
-
+  
 
 
 
