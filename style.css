@@ -124,6 +124,24 @@ h2{
 
 
 
+/* .photo-container {
+  position: absolute;
+  right: 0;
+  bottom:0;
+  width: 900px;
+  height: 900px;
+  overflow: hidden;
+}
+
+.photo-container img {
+  width: 100%;
+  height: auto;
+} */
+
+
+
+
+
 
 
 
@@ -149,19 +167,19 @@ h2{
 
 
 
-.wp-block-cover {
+.block-cover {
     position: relative;
     width: 100%;
     height: auto;
   }
   
-  .wp-block-cover__image-background {
+  .block-cover__image-background {
     width: 100%;
     height: auto;
     border-radius: 5px;
   }
   
-  .wp-block-cover__inner-container {
+  .block-cover__inner-container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -169,7 +187,7 @@ h2{
     text-align: center;
   }
   
-  .wp-block-heading {
+  .block-heading {
     font-size: 1.5rem;
     margin-top: 0;
   }
@@ -277,19 +295,19 @@ h2{
 
 
 
-.wp-block-cover {
+.block-cover {
     position: relative;
     width: 100%;
     height: auto;
   }
   
-  .wp-block-cover__image-background {
+  .block-cover__image-background {
     width: 100%;
     height: auto;
     border-radius: 5px;
   }
   
-  .wp-block-cover__inner-container {
+  .block-cover__inner-container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -297,7 +315,7 @@ h2{
     text-align: center;
   }
   
-  .wp-block-heading {
+  .block-heading {
     font-size: 1.5rem;
     margin-top: 0;
   }
@@ -331,28 +349,24 @@ h2{
 
 
 
-  .carousel {
+  .car {
     position: relative;
     overflow: hidden;
-  }
-  
-  .carousel-inner {
+    }
+    .car-inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
-  }
-  
-  .carousel-item {
+    }
+    .car-item {
     flex: 0 0 100%;
     text-align: center;
-  }
-  
-  .carousel-item img {
+    }
+    .car-item img {
     width: 100%;
     height: auto;
-  }
-  
-  .carousel-prev,
-  .carousel-next {
+    }
+    .car-prev,
+    .car-next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -362,32 +376,26 @@ h2{
     border: none;
     cursor: pointer;
     font-size: 18px;
-  }
-  
-  .carousel-prev {
+    }
+    .car-prev {
     left: 0;
-  }
-  
-  .carousel-next {
+    }
+    .car-next {
     right: 0;
-  }
-  
-  .carousel-prev:hover,
-  .carousel-next:hover {
+    }
+    .car-prev:hover,
+    .car-next:hover {
     background-color: rgba(0, 0, 0, 0.7);
-  }
-  
-  .carousel-inner .carousel-item:not(.active) {
+    }
+    .car-inner .car-item:not(.active) {
     transform: translateX(-100%);
-  }
-  
-  .carousel-inner .carousel-item:nth-child(2):not(.active) {
+    }
+    .car-inner .car-item:nth-child(2):not(.active) {
     transform: translateX(-50%);
-  }
-  
-  .carousel-inner .carousel-item:nth-child(3):not(.active) {
+    }
+    .car-inner .car-item:nth-child(3):not(.active) {
     transform: translateX(0);
-  }
+    }
 
 
 
