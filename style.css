@@ -1,5 +1,5 @@
 body{
-    background-color: #33312d;
+    background-color: #5a4c2f;
     color: white;
     margin: 0px;
     padding: 0px;
@@ -24,7 +24,7 @@ body.dark-mode {
 }
 
 #contentFeature{
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(51, 77, 117);
     background-image: url("https://tinyurl.com/5ekwzpzh");
     background-size: contain;
     width: 100%;
@@ -126,54 +126,20 @@ h2{
 }
 
 
-
-
-
-
-
-/* .photo-container {
-  position: absolute;
-  right: 0;
-  bottom:0;
-  width: 900px;
-  height: 900px;
-  overflow: hidden;
-}
-
-.photo-container img {
-  width: 100%;
-  height: auto;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
 .contentItem {
     margin: 0 20px;
   }
   .container {
     display: flex;
-    justify-content: space-between; /* This will align the items horizontally with equal spacing between them */
-    align-items: center; /* This will vertically center the items */
-    height: 100px; /* Set the height of the container */
+    justify-content: space-between;
+    align-items: center; 
+    height: 100px; 
     color: white; 
 }
 
 
 
-
-
-
-
-
+/**/
 .block-cover {
     position: relative;
     width: 100%;
@@ -221,26 +187,17 @@ h2{
   }
 
 
-
-
-
-
-
-
-
-
-
+/**/
 .box {
-    flex: 1; /* This will make the boxes take up equal space */
-    text-align: center; /* Center the text */
-    border: 1px solid #ccc; /* Add a border for visualization */
-    padding: 10px; /* Add some padding */
-    box-sizing: border-box; /* Include padding in the total width */
+    flex: 1; 
+    text-align: center; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    box-sizing: border-box; 
 }
 
 
-
-
+/**/
 .image-container {
   position: relative;
   width: 100%;
@@ -297,11 +254,7 @@ h2{
   color: white;
 }
 
-
-
-
-
-
+/**/
 .block-cover {
     position: relative;
     width: 100%;
@@ -349,13 +302,7 @@ h2{
   }
 
 
-
-
-
-
-
-
-
+/**/
   .car {
     position: relative;
     overflow: hidden;
@@ -403,27 +350,3 @@ h2{
     .car-inner .car-item:nth-child(3):not(.active) {
     transform: translateX(0);
     }
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
