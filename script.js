@@ -65,9 +65,9 @@ document.addEventListener('DOMContentLoaded', () => {
       // Display suggested search terms based on searchTerm
       searchResults.innerHTML = `<p>Suggested search terms:</p>
       <ul>
-        <li>Search 1</li>
-        <li>Search 2</li>
-        <li>Search 3</li>
+        <li>daniel  1</li>
+        <li>beyene  2</li>
+        <li>project 3</li>
       </ul>`;
     } else {
       // Clear search results
@@ -127,7 +127,7 @@ function toggleReadMore(index) {
   loadingText.style.display = 'none';
 
   // Fetch the news content from the server
-  fetch(`https://epaper.standardmedia.co.ke/publication/3/the-standard/${index}`)
+  fetch(`http://localhost:3000/toys/${index}`)
     .then(response => response.json())
     .then(data => {
       // Display the news content in the "news-content" div
@@ -139,7 +139,7 @@ function toggleReadMore(index) {
 
   //... Get all elements with class "box"
   const boxes = document.getElementsByClassName("box");
-  // Define an array of 5 different colors
+  // Define an array of 3 different colors
   const colors = ["#ff69b4", "#33cc33", "#6666ff",];
   // Loop through each box and change the background color
   for (let i = 0; i < boxes.length; i++) {
@@ -178,4 +178,6 @@ function toggleReadMore(index) {
   });
   }
   });
+
+  
   
