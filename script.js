@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   console.error(error);
   });
   
-  //....POST Method
+  //....POST Methods
   async function fetchToys() {
   const toysData = {
   name: 'Toy Car',
@@ -40,8 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchTerm = searchInput.value.trim();
     if (searchTerm) {
       // Make a search request to the server with the search term
-      fetch(`/search?q=${searchTerm}`)
+      fetch(`http://localhost:3000/toys ${searchTerm}`)
         .then(response => response.json())
+
         .then(data => {
           // Clear previous search results
           searchResults.innerHTML = '';
@@ -178,6 +179,7 @@ function toggleReadMore(index) {
   });
   }
   });
+
 
   
   
