@@ -87,7 +87,6 @@ h2{
     margin-bottom: 50px;
 }
 #contentArea1{
-    background-image: url("https://scontent.fnbo8-1.fna.fbcdn.net/v/t39.30808-6/426184708_905962001530561_7206034091675260824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yZ0T8DQ2b2wAb4bnl9L&_nc_ht=scontent.fnbo8-1.fna&oh=00_AfA3yEWlQA85nR4VKcL6Ngr1wk-0pF7dmGW_z479u4i4tw&oe=66368348");
     background-size: cover;
     display: inline-block;
 }
@@ -97,7 +96,6 @@ h2{
     display: inline-block;
 }
 #contentArea2{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSizOQtpGRq0Fagp3Ifal-TfK9Uamy4BXNRFV7iFHIf-w&s");
     background-size: cover;
     display: inline-block;
 }
@@ -106,7 +104,6 @@ h2{
     transition: 0.2s;
 }
 #contentArea3{
-    background-image: url("https://static.wixstatic.com/media/28c3bc_4a6a5af3eeba4dff84c65b1ee058dc91~mv2.jpg/v1/fill/w_640,h_268,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/28c3bc_4a6a5af3eeba4dff84c65b1ee058dc91~mv2.jpg");
     background-size: cover;
 }
 #contentArea3:hover{

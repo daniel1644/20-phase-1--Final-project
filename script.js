@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
       // Make a search request to the server with the search term
       fetch(`http://localhost:3000/toys ${searchTerm}`)
         .then(response => response.json())
-
         .then(data => {
           // Clear previous search results
           searchResults.innerHTML = '';
@@ -66,8 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
       // Display suggested search terms based on searchTerm
       searchResults.innerHTML = `<p>Suggested search terms:</p>
       <ul>
-        <li>daniel  1</li>
-        <li>beyene  2</li>
+        <li>daniel 1</li>
+        <li>beyene 2</li>
         <li>project 3</li>
       </ul>`;
     } else {
@@ -84,18 +83,19 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
-  // Dark mode toggle
+  //... Dark mode toggle
   const modeButton = document.getElementById('modeButton');
   modeButton.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
   });
   
-  // Upvote functionality
+  //... Upvote functionality
   const upvoteButton = document.getElementById('upvoteButton');
   const voteCount = document.getElementById('voteCount');
   upvoteButton.addEventListener('click', () => {
   const currentCount = parseInt(voteCount.innerText);
   voteCount.innerText = currentCount + 1;
+  voteCount.style.color = 'red';
   });
   
   //...read More Button
